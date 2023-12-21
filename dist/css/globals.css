@@ -1,0 +1,76 @@
+a.nav-link {
+    color: var(--nav-link-primary);
+    text-decoration: none;
+}
+
+a.nav-link:hover {
+    color: var(--nav-link-hover);
+}
+
+li {
+    list-style-position: inside;
+}
+
+.li-title {
+    font-weight: 700;
+}
+
+::marker {
+    color: var(--attention-secondary)
+}
+
+.highlight-soft {
+    color: var(--muted-secondary);
+}
+
+.highlight-med {
+    color: var(--attention-secondary);
+}
+
+.highlight-str {
+    color: var(--attention-primary);
+}
+
+.section-part {
+    margin-top: 2em;
+}
+
+ul.bulletless-list {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    color: var(--muted-secondary);
+}
+
+ul.bulletless-list li {
+    list-style: none;
+    list-style-position: inside;
+    margin-bottom: 1.5em;
+}
+
+ul.bulletless-list h4 {
+    margin-top: 1.25em;
+    font-weight: 700;
+}
+
+ul.bulletless-list li p {
+    margin-top: 0;
+}
+
+ul.bulletless-list li .sub-head {
+    margin-bottom: 0.36em;
+}
+
+ul.inner-list {
+    padding-left: 0;
+    list-style: initial;
+    list-style-position: inside;
+}
+
+ul.inner-list li {
+    list-style: inherit;
+    margin-bottom: inherit;
+}
+
+.section-part p {
+    margin-bottom: 0.75em;
+}

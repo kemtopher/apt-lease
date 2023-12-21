@@ -1,0 +1,19 @@
+:root {
+    --bg-primary: #ffffff;
+    --bg-secondary: #efeeea;
+    
+    --base-white: #efeeea;
+    --base-text: #001d28;
+
+    --nav-link-primary: #007c89;
+    --nav-link-hover: #006570;
+
+    --link-primary: #99272d;
+    --link-hover: #e7b75f;
+
+    --attention-primary: #99272d;
+    --attention-secondary: #e7b75f;
+
+    --muted-primary: #3F5257;
+    --muted-secondary: #0C283D;
+}   
