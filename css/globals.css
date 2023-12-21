@@ -44,7 +44,7 @@ ul.bulletless-list {
 ul.bulletless-list li {
     list-style: none;
     list-style-position: inside;
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
 }
 
 ul.bulletless-list h4 {
