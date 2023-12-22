@@ -1,0 +1,1 @@
+document.querySelectorAll(".clickable").forEach((e=>{e.addEventListener("click",(e=>{e.preventDefault(),e.target.classList.contains("collapsed")?(console.log("contains class"),e.target.classList.remove("collapsed")):(console.log("doesn't contain class"),e.target.classList.add("collapsed"))}))}));
