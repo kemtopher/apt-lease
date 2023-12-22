@@ -1,19 +1,9 @@
-a.clickable.nav-link {
-    color: var(--nav-link-primary);
-    text-decoration: none;
+* {
+    box-sizing: border-box;
 }
 
-a.clickable.nav-link:hover {
-    color: var(--nav-link-hover);
-}
-
-li {
-    list-style-position: inside;
-}
-
-.li-title {
-    text-transform: capitalize;
-    font-weight: 700;
+html {
+    scroll-behavior: smooth;
 }
 
 ::marker {

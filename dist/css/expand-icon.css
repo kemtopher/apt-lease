@@ -1,0 +1,9 @@
+.expand-icon {
+    fill: var(--nav-link-primary);
+    fill-rule:evenodd;
+    clip-rule:evenodd;
+}
+
+.expand-icon.active {
+    fill: var(--nav-link-secondary);
+}
