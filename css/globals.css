@@ -12,6 +12,7 @@ li {
 }
 
 .li-title {
+    text-transform: capitalize;
     font-weight: 700;
 }
 
@@ -33,6 +34,10 @@ li {
 
 .section-part {
     margin-top: 2em;
+}
+
+.sub-heading {
+    text-transform: capitalize;
 }
 
 ul.bulletless-list {
